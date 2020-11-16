@@ -1,0 +1,45 @@
+# Created at 2020-11-09T22:04:23.439
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-11-09T22:04:24.315
+Unexpected IOException: 8,1,SanityTests.JSONServerAPI,afterMethod(SanityTests.JSONServerAPI),null,java.net.SocketException: Connection reset\000ABuild info: version: '3.5.3'\002C revision: 'a88d25fe6b'\002C time: '2017-08-29T12:42:44.417Z'\000ASystem info: host: 'DESKTOP-M53559M'\002C ip: '192.168.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_222'\000ADriver info: driver.version: RemoteWebDriver,null,java.net.SocketException: Connection reset\000ABuild info: version: '3.5.3'\002C revision: 'a88d25fe6b'\002C time: '2017-08-29T12:42:44.417Z'\000ASystem info: host: 'DESKTOP-M53559M'\002C ip: '192.168.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_222'\000ADriver info: driver.version: RemoteWebDriver,JSONServerAPI>commonOps.afterMethod:135 \00BB WebDriver java.net.SocketException: ...,org.openqa.selenium.WebDriverException: \000Ajava.net.SocketException: Connection reset\000ABuild info: version: '3.5.3'\002C revision: 'a88d25fe6b'\002C time: '2017-08-29T12:42:44.417Z'\000ASystem info: host: 'DESKTOP-M53559M'\002C ip: '192.168.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_222'\000ADriver info: driver.version: RemoteWebDriver\000ACaused by: java.net.SocketException: Connection reset\000A
+
+
+# Created at 2020-11-09T22:04:24.318
+Unexpected IOException: 9,1,SanityTests.JSONServerAPI,test02_getProperty(SanityTests.JSONServerAPI),null,java.net.SocketException: Connection reset\000ABuild info: version: '3.5.3'\002C revision: 'a88d25fe6b'\002C time: '2017-08-29T12:42:44.417Z'\000ASystem info: host: 'DESKTOP-M53559M'\002C ip: '192.168.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_222'\000ADriver info: driver.version: RemoteWebDriver,null
+
+
+# Created at 2020-11-09T22:04:24.327
+Unexpected IOException: 9,1,SanityTests.JSONServerAPI,afterMethod(SanityTests.JSONServerAPI),null,null,null
+
+
+# Created at 2020-11-09T22:04:24.328
+Unexpected IOException: 9,1,SanityTests.JSONServerAPI,test03_updateSectionAndVerify(SanityTests.JSONServerAPI),null,java.net.SocketException: Connection reset\000ABuild info: version: '3.5.3'\002C revision: 'a88d25fe6b'\002C time: '2017-08-29T12:42:44.417Z'\000ASystem info: host: 'DESKTOP-M53559M'\002C ip: '192.168.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_222'\000ADriver info: driver.version: RemoteWebDriver,null
+
+
+# Created at 2020-11-09T22:04:24.334
+Unexpected IOException: 9,1,SanityTests.JSONServerAPI,afterMethod(SanityTests.JSONServerAPI),null,null,null
+
+
+# Created at 2020-11-09T22:04:24.336
+Unexpected IOException: 9,1,SanityTests.JSONServerAPI,test04_deleteSectionAndVerify(SanityTests.JSONServerAPI),null,java.net.SocketException: Connection reset\000ABuild info: version: '3.5.3'\002C revision: 'a88d25fe6b'\002C time: '2017-08-29T12:42:44.417Z'\000ASystem info: host: 'DESKTOP-M53559M'\002C ip: '192.168.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_222'\000ADriver info: driver.version: RemoteWebDriver,null
+
+
+# Created at 2020-11-09T22:04:24.341
+Unexpected IOException: 9,1,SanityTests.JSONServerAPI,afterMethod(SanityTests.JSONServerAPI),null,null,null
+
+
+# Created at 2020-11-09T22:04:24.342
+Unexpected IOException: 9,1,SanityTests.JSONServerAPI,closeSession(SanityTests.JSONServerAPI),null,null,null
+
+
+# Created at 2020-11-09T22:04:24.596
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

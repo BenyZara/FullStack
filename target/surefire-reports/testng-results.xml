@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6014" started-at="2020-11-16T19:35:40Z" finished-at="2020-11-16T19:35:46Z">
+    <groups>
+    </groups>
+    <test name="API Tests" duration-ms="6014" started-at="2020-11-16T19:35:40Z" finished-at="2020-11-16T19:35:46Z">
+      <class name="SanityTests.JSONServerAPI">
+        <test-method status="PASS" signature="startSession(java.lang.String)[pri:0, instance:SanityTests.JSONServerAPI@127e70c5]" name="startSession" is-config="true" duration-ms="2846" started-at="2020-11-16T19:35:40Z" finished-at="2020-11-16T19:35:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[api]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSession -->
+        <test-method status="PASS" signature="test01_addSectionAndVerify()[pri:0, instance:SanityTests.JSONServerAPI@127e70c5]" name="test01_addSectionAndVerify" duration-ms="1833" started-at="2020-11-16T19:35:43Z" description="Test 01: Add Section and Verify it" finished-at="2020-11-16T19:35:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_addSectionAndVerify -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SanityTests.JSONServerAPI@127e70c5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-11-16T19:35:45Z" finished-at="2020-11-16T19:35:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test02_getProperty()[pri:0, instance:SanityTests.JSONServerAPI@127e70c5]" name="test02_getProperty" duration-ms="954" started-at="2020-11-16T19:35:45Z" description="Test 02: Get property From JSON Server" finished-at="2020-11-16T19:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02_getProperty -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SanityTests.JSONServerAPI@127e70c5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-11-16T19:35:46Z" finished-at="2020-11-16T19:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test03_updateSectionAndVerify()[pri:0, instance:SanityTests.JSONServerAPI@127e70c5]" name="test03_updateSectionAndVerify" duration-ms="108" started-at="2020-11-16T19:35:46Z" description="Test 03: Update Section and Verify it" finished-at="2020-11-16T19:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03_updateSectionAndVerify -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SanityTests.JSONServerAPI@127e70c5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-11-16T19:35:46Z" finished-at="2020-11-16T19:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test04_deleteSectionAndVerify()[pri:0, instance:SanityTests.JSONServerAPI@127e70c5]" name="test04_deleteSectionAndVerify" duration-ms="40" started-at="2020-11-16T19:35:46Z" description="Test 04: Delete Section and Verify it" finished-at="2020-11-16T19:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04_deleteSectionAndVerify -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SanityTests.JSONServerAPI@127e70c5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-11-16T19:35:46Z" finished-at="2020-11-16T19:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:SanityTests.JSONServerAPI@127e70c5]" name="closeSession" is-config="true" duration-ms="4" started-at="2020-11-16T19:35:46Z" finished-at="2020-11-16T19:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- SanityTests.JSONServerAPI -->
+    </test> <!-- API Tests -->
+  </suite> <!-- Suite -->
+</testng-results>

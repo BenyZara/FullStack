@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: SanityTests.nopCommerceWeb
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 47.605 s <<< FAILURE! - in SanityTests.nopCommerceWeb
+test06_verifyLogo(SanityTests.nopCommerceWeb)  Time elapsed: 1.327 s  <<< FAILURE!
+java.lang.AssertionError: Images are not same expected [false] but found [true]
+	at SanityTests.nopCommerceWeb.test06_verifyLogo(nopCommerceWeb.java:81)
+

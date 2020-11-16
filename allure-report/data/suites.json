@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "API Tests",
+      "children" : [ {
+        "name" : "SanityTests.JSONServerAPI",
+        "children" : [ {
+          "name" : "Test 01: Add Section and Verify it",
+          "uid" : "ad88fa5c8c4c8030",
+          "parentUid" : "091d75028b897f0e9a6deb806eb62289",
+          "status" : "passed",
+          "time" : {
+            "start" : 1605555343385,
+            "stop" : 1605555345176,
+            "duration" : 1791
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        }, {
+          "name" : "Test 02: Get property From JSON Server",
+          "uid" : "2cd8916d4415e583",
+          "parentUid" : "091d75028b897f0e9a6deb806eb62289",
+          "status" : "passed",
+          "time" : {
+            "start" : 1605555345343,
+            "stop" : 1605555346294,
+            "duration" : 951
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        }, {
+          "name" : "Test 03: Update Section and Verify it",
+          "uid" : "f0568cd27c9fe426",
+          "parentUid" : "091d75028b897f0e9a6deb806eb62289",
+          "status" : "passed",
+          "time" : {
+            "start" : 1605555346301,
+            "stop" : 1605555346407,
+            "duration" : 106
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        }, {
+          "name" : "Test 04: Delete Section and Verify it",
+          "uid" : "5190c55f9eccb733",
+          "parentUid" : "091d75028b897f0e9a6deb806eb62289",
+          "status" : "passed",
+          "time" : {
+            "start" : 1605555346415,
+            "stop" : 1605555346454,
+            "duration" : 39
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        } ],
+        "uid" : "091d75028b897f0e9a6deb806eb62289"
+      } ],
+      "uid" : "4ed70f54fda3286e80a05bd83e56a3ad"
+    } ],
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  } ]
+}

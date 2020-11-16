@@ -1,0 +1,41 @@
+[ {
+  "uid" : "5190c55f9eccb733",
+  "name" : "Test 04: Delete Section and Verify it",
+  "time" : {
+    "start" : 1605555346415,
+    "stop" : 1605555346454,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad88fa5c8c4c8030",
+  "name" : "Test 01: Add Section and Verify it",
+  "time" : {
+    "start" : 1605555343385,
+    "stop" : 1605555345176,
+    "duration" : 1791
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0568cd27c9fe426",
+  "name" : "Test 03: Update Section and Verify it",
+  "time" : {
+    "start" : 1605555346301,
+    "stop" : 1605555346407,
+    "duration" : 106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2cd8916d4415e583",
+  "name" : "Test 02: Get property From JSON Server",
+  "time" : {
+    "start" : 1605555345343,
+    "stop" : 1605555346294,
+    "duration" : 951
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
